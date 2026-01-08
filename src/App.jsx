@@ -1,4 +1,7 @@
+import Navbar from './components/Navbar'
 const App = () => {
-    return <div>Guided Rosary App</div>;
+    return (
+      <Navbar />
+    );
 };
 export default App
